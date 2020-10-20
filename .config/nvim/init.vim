@@ -42,6 +42,10 @@ nmap <C-k> <C-u>k
 nmap <C-j> <C-d>k
 "Map the copying and pasting to `y` and `p`
 "y and p in visual mode will copy/paste directly to system buffer 
+"Vim requires the +clipboard feature flag for any of this to work;
+"you can check if your Vim has this by using :echo has('clipboard') from within Vim 
+"(if the output is 0, it's not present, if it's 1, it is), or checking the output of vim --version for +clipboard.
+"If its 0 , install `vim-gtk3`
 vnoremap Y "*y
 vnoremap P "*p
 vnoremap y "+y
