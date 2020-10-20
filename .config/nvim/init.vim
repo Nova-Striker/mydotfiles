@@ -40,6 +40,12 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 "vim-smoothie keymaps
 nmap <C-k> <C-u>k
 nmap <C-j> <C-d>k
+"Map the copying and pasting to `y` and `p`
+"y and p in visual mode will copy/paste directly to system buffer 
+vnoremap Y "*y
+vnoremap P "*p
+vnoremap y "+y
+vnoremap p "+p
 "OneDark Theme
 "source $HOME/.config/nvim/themes/onedark.vim
 
