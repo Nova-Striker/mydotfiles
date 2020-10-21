@@ -18,8 +18,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vifm/vifm.vim'
     Plug 'junegunn/fzf'
     Plug 'joshdick/onedark.vim'
-    Plug 'morhetz/gruvbox'
+    Plug 'gruvbox-community/gruvbox'
     Plug 'drewtempelmeyer/palenight.vim'
-    Plug 'psliwka/vim-smoothie'
     Plug 'neomake/neomake'
+    Plug 'subnut/vim-smoothie'
 call plug#end()
