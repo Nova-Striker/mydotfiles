@@ -18,7 +18,7 @@ inoremap <Right> <Nop>
 inoremap <Up> <Nop>
 
 " Remove newbie crutches in Normal Mode
-nnorema  p <Down> <Nop>
+nnoremap <Down> <Nop>
 nnoremap <Left> <Nop>
 nnoremap <Right> <Nop>
 nnoremap <Up> <Nop>
