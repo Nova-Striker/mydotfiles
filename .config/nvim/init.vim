@@ -80,3 +80,7 @@ call neomake#configure#automake('nrwi', 500)
 
 "Snippets
 nnoremap ,def :-1read /home/linux/.config/nvim/snippets/pydef.py<CR>jwea
+nnoremap ,cpp :-1read /home/linux/.config/nvim/snippets/cpp.cpp<CR>
+nnoremap ,cls :-1read /home/linux/.config/nvim/snippets/cls.py<CR>
+
+
