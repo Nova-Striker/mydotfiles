@@ -5,8 +5,6 @@ imap jj <Esc>
 map <Leader>vv :Vifm<CR>
 autocmd FileType python map <buffer> <F9> :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 autocmd FileType python imap <buffer> <F9> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
-map <Leader>y "*y
-map <Leader>p "*p
 " Remove newbie crutches in Command Mode
 cnoremap <Down> <Nop>
 cnoremap <Left> <Nop>
@@ -20,7 +18,7 @@ inoremap <Right> <Nop>
 inoremap <Up> <Nop>
 
 " Remove newbie crutches in Normal Mode
-nnoremap <Down> <Nop>
+nnorema  p <Down> <Nop>
 nnoremap <Left> <Nop>
 nnoremap <Right> <Nop>
 nnoremap <Up> <Nop>
@@ -40,12 +38,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 "vim-smoothie keymaps
 nmap <C-k> <C-u>k
 nmap <C-j> <C-d>k
-"Map the copying and pasting to `y` and `p`
-"y and p in visual mode will copy/paste directly to system buffer 
-"Vim requires the +clipboard feature flag for any of this to work;
-"you can check if your Vim has this by using :echo has('clipboard') from within Vim 
-"(if the output is 0, it's not present, if it's 1, it is), or checking the output of vim --version for +clipboard.
-"If its 0 , install `vim-gtk3`
+"Map the copying and pasting to `/y` and `/p`
 vnoremap Y "*y
 vnoremap P "*p
 vnoremap y "+y
@@ -84,3 +77,6 @@ call neomake#configure#automake('rw', 1000)
 " Full config: when writing or reading a buffer, and on changes in insert and
 " normal mode (after 500ms; no delay when writing).
 call neomake#configure#automake('nrwi', 500)
+
+"Snippets
+nnoremap ,def :-1read /home/linux/.config/nvim/snippets/pydef.py<CR>jwea
