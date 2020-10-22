@@ -8,6 +8,6 @@ class foobar:
     def __str__(self):
         return "foobar"
 
-    def foo(self):
+    def foo(self,*args,**kwargs):
         pass
 
