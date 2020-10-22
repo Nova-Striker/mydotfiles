@@ -1,0 +1,25 @@
+{
+	"name": "quickstart",
+	"publisher": "lolkush",
+	"description": "HTML5 snippet for jQuery 3, Bootstrap 3 with Javascript.",
+	"version": "0.1.0",
+	"engines": {
+		"vscode": "0.10.x"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/html.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "a0fef603-ae87-4160-9bad-21fd92439bdb",
+		"publisherId": "268043e9-2fa5-4f30-9ae7-e647353a3e3e",
+		"publisherDisplayName": "lolkush"
+	}
+}

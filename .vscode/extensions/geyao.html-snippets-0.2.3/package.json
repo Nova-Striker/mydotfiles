@@ -1,0 +1,47 @@
+{
+	"name": "html-snippets",
+	"displayName": "HTML Snippets",
+	"description": "Full HTML tags including HTML5 Snippets",
+	"version": "0.2.3",
+	"publisher": "geyao",
+	"icon": "images/icon.png",
+	"engines": {
+		"vscode": "^1.9.1"
+	},
+	"galleryBanner": {
+		"color": "#1E81C1",
+		"theme": "light"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "vue",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "vue-html",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "1a9b4920-81e7-4148-b64a-1c1cf05e5e0b",
+		"publisherId": "e03f9456-60e8-475d-a542-755ed8bc0181",
+		"publisherDisplayName": "geyao"
+	}
+}
