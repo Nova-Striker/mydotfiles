@@ -38,7 +38,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 "vim-smoothie keymaps
 nmap <C-k> <C-u>k
 nmap <C-j> <C-d>k
-"Map the copying and pasting to `/y` and `/p`
+"Map the copying and pasting to system buffer using `y` and `p` in visual mode
 vnoremap Y "*y
 vnoremap P "*p
 vnoremap y "+y
@@ -59,8 +59,9 @@ vnoremap p "+p
 "endif
 
 "Gruvbox theme
-let g:gruvbox_italic=1
+let g:wruvbox_italic=1
 autocmd vimenter * colorscheme gruvbox
+
 
 "cpp nvim settings for compiling code
 nnoremap <C-c> :!g++ -o  %:r.out % -std=c++11<Enter>
@@ -83,4 +84,8 @@ nnoremap ,def :-1read /home/linux/.config/nvim/snippets/pydef.py<CR>jwea
 nnoremap ,cpp :-1read /home/linux/.config/nvim/snippets/cpp.cpp<CR>
 nnoremap ,cls :-1read /home/linux/.config/nvim/snippets/cls.py<CR>
 
+"Rainbow Parenthesis
+let g:rainbow_active = 1
 
+"Carbon Hotkey mapped to F5
+vnoremap <F5> :CarbonNowSh<CR>

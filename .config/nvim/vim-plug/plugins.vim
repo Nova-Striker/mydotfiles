@@ -22,4 +22,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'drewtempelmeyer/palenight.vim'
     Plug 'neomake/neomake'
     Plug 'subnut/vim-smoothie'
+    Plug 'luochen1990/rainbow'
+    Plug 'kristijanhusak/vim-carbon-now-sh'
 call plug#end()
