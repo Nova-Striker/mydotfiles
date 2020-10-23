@@ -59,7 +59,7 @@ vnoremap p "+p
 "endif
 
 "Gruvbox theme
-let g:wruvbox_italic=1
+let g:gruvbox_italic=1
 autocmd vimenter * colorscheme gruvbox
 
 
