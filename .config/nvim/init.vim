@@ -37,7 +37,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 "vim-smoothie keymaps
 nmap <C-k> <C-u>k
-nmap <C-j> <C-d>k
+nmap <C-j> <C-d>j
 "Map the copying and pasting to system buffer using `y` and `p` in visual mode
 vnoremap Y "*y
 vnoremap P "*p
