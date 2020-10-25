@@ -26,7 +26,7 @@ window:
   # Number of lines/columns (not pixels) in the terminal. The number of columns
   # must be at least `2`, while using a value of `0` for columns and lines will
   # fall back to the window manager's recommended size.
-  #dimensions:
+  dimensions:
     columns: 0
     lines: 0
 
@@ -34,7 +34,7 @@ window:
   #
   # Specified in number of pixels.
   # If the position is not set, the window manager will handle the placement.
-  #position:
+  position:
     x: 0
     y: 0
 
@@ -42,7 +42,7 @@ window:
   #
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
-  #padding:
+  padding:
     x: 2
     y: 2
 
