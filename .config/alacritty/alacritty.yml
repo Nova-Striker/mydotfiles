@@ -26,7 +26,7 @@ window:
   # Number of lines/columns (not pixels) in the terminal. The number of columns
   # must be at least `2`, while using a value of `0` for columns and lines will
   # fall back to the window manager's recommended size.
-  #dimensions:
+  dimensions:
     columns: 0
     lines: 0
 
@@ -34,7 +34,7 @@ window:
   #
   # Specified in number of pixels.
   # If the position is not set, the window manager will handle the placement.
-  #position:
+  position:
     x: 0
     y: 0
 
@@ -42,7 +42,7 @@ window:
   #
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
-  #padding:
+  padding:
     x: 2
     y: 2
 
@@ -231,26 +231,26 @@ colors:
       foreground: '#1d1f21'
 
   # Normal colors
-  normal:
-    black:   '#1d1f21'
-    red:     '#cc6666'
-    green:   '#b5bd68'
-    yellow:  '#f0c674'
-    blue:    '#81a2be'
-    magenta: '#b294bb'
-    cyan:    '#8abeb7'
-    white:   '#c5c8c6'
-
-  # Bright colors
-  bright:
-    black:   '#666666'
-    red:     '#d54e53'
-    green:   '#b9ca4a'
-    yellow:  '#e7c547'
-    blue:    '#7aa6da'
-    magenta: '#c397d8'
-    cyan:    '#70c0b1'
-    white:   '#eaeaea'
+  #  normal:
+  #    black:   '#1d1f21'
+  #    red:     '#cc6666'
+  #    green:   '#b5bd68'
+  #    yellow:  '#f0c674'
+  #    blue:    '#81a2be'
+  #    magenta: '#b294bb'
+  #    cyan:    '#8abeb7'
+  #    white:   '#c5c8c6'
+  #
+  #  # Bright colors
+  #  bright:
+  #    black:   '#666666'
+  #    red:     '#d54e53'
+  #    green:   '#b9ca4a'
+  #    yellow:  '#e7c547'
+  #    blue:    '#7aa6da'
+  #    magenta: '#c397d8'
+  #    cyan:    '#70c0b1'
+  #    white:   '#eaeaea'
 
   # Dim colors
   #
@@ -276,6 +276,31 @@ colors:
   #
   #indexed_colors: []
 
+# Colors (Gruvbox Material Dark Medium)
+colors:
+  primary:
+    background: '0x282828'
+    foreground: '0xdfbf8e'
+
+  normal:
+    black:   '0x665c54'
+    red:     '0xea6962'
+    green:   '0xa9b665'
+    yellow:  '0xe78a4e'
+    blue:    '0x7daea3'
+    magenta: '0xd3869b'
+    cyan:    '0x89b482'
+    white:   '0xdfbf8e'
+
+  bright:
+    black:   '0x928374'
+    red:     '0xea6962'
+    green:   '0xa9b665'
+    yellow:  '0xe3a84e'
+    blue:    '0x7daea3'
+    magenta: '0xd3869b'
+    cyan:    '0x89b482'
+    white:   '0xdfbf8e'
 # Bell
 #
 # The bell is rung every time the BEL control character is received.
