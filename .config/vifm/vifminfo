@@ -9,6 +9,10 @@
 	/home/linux/
 	..
 1600540658
+'v
+	/home/linux/Desktop/Python-4-Beginners/PythonSpecific
+	fibogen.py
+1603358400
 
 # Bookmarks:
 
@@ -22,306 +26,306 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/linux/Desktop
-	Python-4-Beginners
-5
-d/home/linux/Desktop/Python-4-Beginners
-	DataStructures
-4
-d/home/linux/Desktop
-	Nova-Striker.github.io
-2
-d/home/linux/Desktop/Nova-Striker.github.io
-	tricks
-3
-d/home/linux/Desktop/Nova-Striker.github.io/tricks
-	index.md
+d/etc/mysql
+	mariadb.conf.d
 1
-d/home/linux/Desktop/Nova-Striker.github.io
-	index.html
-5
-d/home/linux/Desktop
-	Nova-Striker.github.io
-2
-d/home/linux
-	Desktop
+d/etc/mysql/mariadb.conf.d
+	..
+0
+d/etc/mysql
+	debian.cnf
 4
+d/etc
+	mysql
+23
+d/etc/mysql
+	conf.d
+1
+d/etc/mysql/conf.d
+	mysqldump.cnf
+2
+d/etc/mysql
+	mysql.conf.d
+2
+d/etc/mysql/mysql.conf.d
+	mysqld.cnf
+2
+d/etc/mysql
+	mysql.conf.d
+2
+d/etc/mysql/mysql.conf.d
+	mysqld.cnf
+2
+d/etc/mysql
+	conf.d
+1
+d/etc/mysql/conf.d
+	mysql.cnf
+1
+d/etc/mysql
+	mysql.conf.d
+2
+d/etc/mysql/mysql.conf.d
+	mysqld.cnf
+2
+d/etc/mysql
+	conf.d
+1
+d/etc/mysql/conf.d
+	mysqldump.cnf
+2
+d/etc/mysql
+	mysql.conf.d
+2
+d/etc/mysql/mysql.conf.d
+	mysqld.cnf
+2
+d/etc/mysql
+	mysql.conf.d
+2
+d/etc
+	mysql
+23
+d/
+	var
+24
+d/var
+	run
+11
+d/var/run
+	mysqld
+15
+d/var/run/mysqld
+	..
+0
+d/var/run
+	mysqld
+15
+d/var/run/mysqld
+	..
+0
+d/var/run
+	mysqld
+15
+d/var/run/mysqld
+	..
+0
+d/var/run
+	mysqld
+15
+d/var/run/mysqld
+	..
+0
+d/var/run
+	mysqld
+15
+d/var/run/mysqld
+	..
+0
+d/var/run
+	sudo
+11
+d/var/run/sudo
+	..
+0
+d/var/run
+	sudo
+11
+d/var
+	run
+11
+d/
+	home
+5
 d/home
 	linux
 1
 d/home/linux
 	Desktop
-4
+23
 d/home/linux/Desktop
-	wwapislocal
-9
-d/home/linux/Desktop/wwapislocal
-	spfy.sh
-4
+	mydotfiles
+10
+d/home/linux/Desktop/mydotfiles
+	.zshrc
+8
 d/home/linux/Desktop
-	wwapislocal
+	mydotfiles
 10
 d/home/linux
 	Desktop
+23
+d/home
+	linux
+1
+d/
+	home
 5
+d/home
+	linux
+1
+d/home/linux
+	Desktop
+18
 d/home/linux/Desktop
-	mycppfiles
-8
-d/home/linux/Desktop/mycppfiles
-	firstday.cpp
-7
-d/home/linux/Desktop
-	op
-9
-d/home/linux/Desktop/op
-	.gitignore
-3
-d/home/linux/Desktop
-	Open-Palm
-3
-d/home/linux/Desktop/Open-Palm
-	op
-4
-d/home/linux/Desktop/Open-Palm/op
+	Files
+1
+d/home/linux/Desktop/Files
 	..
 0
-d/home/linux/Desktop/Open-Palm
-	screenshots
-4
 d/home/linux/Desktop
-	wwapislocal
-10
-d/home/linux/Desktop/wwapislocal
-	spfy.sh
-4
+	Files
+1
+d/home/linux
+	Desktop
+18
 d/home/linux/Desktop
-	op
+	Files
+1
+d/home/linux
+	.config
+3
+d/home/linux/.config
+	alacritty
+3
+d/home/linux/.config/alacritty
+	..
+0
+d/home/linux/.config
+	beekeeper-studio
+6
+d/home/linux/.config/beekeeper-studio
+	GPUCache
+4
+d/home/linux/.config
+	neofetch
+26
+d/home/linux
+	Desktop
+23
+d/home/linux/Desktop
+	Files
+1
+d/home/linux/Desktop/Files
+	Python-4-Beginners
+5
+d/home/linux/Desktop/Files/Python-4-Beginners
+	..
+0
+d/home/linux/Desktop/Files
+	Python-4-Beginners
+5
+d/home/linux/Desktop
+	Files
+1
+d/home/linux
+	Desktop
+23
+d/home
+	linux
+1
+d/home/linux
+	.conda
+2
+d/home/linux/.conda
+	..
+0
+d/home/linux
+	.config
+3
+d/home/linux/.config
+	..
+0
+d/home/linux
+	.config
+3
+d/home/linux/.config
+	alacritty
+3
+d/home/linux/.config/alacritty
+	alacritty.yml
+1
+d/home/linux/.config
+	alacritty
+3
+d/home/linux
+	Desktop
+8
+d/home/linux/Desktop
+	Files
+1
+d/home/linux/Desktop/Files
+	mydotfiles
 9
-d/home/linux/Desktop/op
+d/home/linux/Desktop/Files/mydotfiles
+	.fzf.zsh
+7
+d/home/linux/Desktop/Files
+	mydotfiles
+9
+d/home/linux/Desktop
+	Files
+1
+d/home/linux
+	Desktop
+12
+d/home/linux/Desktop
+	Files
+1
+d/home/linux/Desktop/Files
+	mydotfiles
+9
+d/home/linux/Desktop/Files/mydotfiles
+	.vscode
+4
+d/home/linux/Desktop/Files
+	bot
+7
+d/home/linux/Desktop/Files/bot
+	activate
+1
+d/home/linux/Desktop/Files/bot/activate
+	bin
+1
+d/home/linux/Desktop/Files/bot/activate/bin
+	activate
+1
+d/home/linux/Desktop/Files/bot/activate
+	bin
+1
+d/home/linux/Desktop/Files/bot
+	activate
+1
+d/home/linux/Desktop/Files/bot/activate
+	bin
+1
+d/home/linux/Desktop/Files/bot
+	bot
+2
+d/home/linux/Desktop/Files
+	deepmodel
+8
+d/home/linux/Desktop/Files/deepmodel
+	deepmodel
+1
+d/home/linux/Desktop/Files/deepmodel/deepmodel
 	lib
 2
-d/home/linux/Desktop
-	wwapislocal
-10
-d/home/linux
-	Desktop
-5
-d/home/linux/Desktop
-	PersonalFiles
-4
-d/home/linux/Desktop/PersonalFiles
-	spam.py
-16
-d/home/linux/Desktop
-	PersonalFiles
-4
-d/home/linux/Desktop/PersonalFiles
-	ascii.py
-20
-d/home/linux/Desktop
-	PersonalFiles
-4
-d/home/linux
-	Desktop
-19
-d/home/linux/Desktop
-	PersonalFiles
-4
-d/home/linux/Desktop/PersonalFiles
-	spam.py
-16
-d/home/linux/Desktop
-	Python-4-Beginners
-5
-d/home/linux/Desktop/Python-4-Beginners
-	Algorithms
+d/home/linux/Desktop/Files/deepmodel/deepmodel/lib
+	python3.8
+1
+d/home/linux/Desktop/Files/deepmodel/deepmodel/lib/python3.8
+	site-packages
+1
+d/home/linux/Desktop/Files/deepmodel/deepmodel/lib
+	python3.8
+1
+d/home/linux/Desktop/Files/deepmodel/deepmodel
+	lib
 3
-d/home/linux/Desktop/Python-4-Beginners/Algorithms
-	Recursion
-1
-d/home/linux/Desktop/Python-4-Beginners/Algorithms/Recursion
-	fibonacci.py
-1
-d/home/linux/Desktop/Python-4-Beginners/Algorithms
-	Recursion
-1
-d/home/linux/Desktop/Python-4-Beginners
-	PythonSpecific
-6
-d/home/linux/Desktop/Python-4-Beginners/PythonSpecific
-	DataBase Integration.py
-1
-d/home/linux/Desktop/Python-4-Beginners
-	RegularExpressions
-7
-d/home/linux/Desktop/Python-4-Beginners/RegularExpressions
-	..
-0
-d/home/linux/Desktop/Python-4-Beginners
-	PythonSpecific
-6
-d/home/linux/Desktop/Python-4-Beginners/PythonSpecific
-	decorators.py
+d/home/linux/Desktop/Files/deepmodel
+	deepmodel
 2
-d/home/linux/Desktop/Python-4-Beginners
-	Algorithms
-3
-d/home/linux/Desktop/Python-4-Beginners/Algorithms
-	Recursion
-1
-d/home/linux/Desktop/Python-4-Beginners/Algorithms/Recursion
-	factorial.py
-1
-d/home/linux/Desktop/Python-4-Beginners/Algorithms
-	Recursion
-1
-d/home/linux/Desktop/Python-4-Beginners
-	BasicMathematics
-4
-d/home/linux/Desktop/Python-4-Beginners/BasicMathematics
-	pascal_triangle.py
-10
-d/home/linux/Desktop/Python-4-Beginners
-	BasicMathematics
-4
-d/home/linux/Desktop/Python-4-Beginners/BasicMathematics
-	text_to_int.py
-11
-d/home/linux/Desktop/Python-4-Beginners
-	Algorithms
-3
-d/home/linux/Desktop/Python-4-Beginners/Algorithms
-	Recursion
-1
-d/home/linux/Desktop/Python-4-Beginners/Algorithms/Recursion
-	factorial.py
-1
-d/home/linux/Desktop/Python-4-Beginners/Algorithms
-	Recursion
-1
-d/home/linux/Desktop/Python-4-Beginners
-	BasicMathematics
-4
-d/home/linux/Desktop/Python-4-Beginners/BasicMathematics
-	pascal_triangle.py
-10
-d/home/linux/Desktop/Python-4-Beginners
-	BasicMathematics
-4
-d/home/linux/Desktop
-	Python-4-Beginners
-5
-d/home/linux
-	Desktop
-19
-d/home/linux/Desktop
-	Python-4-Beginners
-5
-d/home/linux/Desktop/Python-4-Beginners
-	BasicMathematics
-4
-d/home/linux/Desktop/Python-4-Beginners/BasicMathematics
-	pascal_triangle.py
-10
-d/home/linux/Desktop/Python-4-Beginners
-	BasicMathematics
-4
-d/home/linux/Desktop
-	Open-Palm
-3
-d/home/linux/Desktop/Open-Palm
-	screenshots
-4
-d/home/linux/Desktop/Open-Palm/screenshots
-	Screenshot from 2020-10-09 23-17-20.jpg
-1
-d/home/linux/Desktop/Open-Palm
-	src
-5
-d/home/linux/Desktop/Open-Palm/src
-	Mail.py
-3
-d/home/linux/Desktop/Open-Palm
-	src
-5
-d/home/linux/Desktop
-	Nova-Striker.github.io
-2
-d/home/linux
-	.config
-2
-d/home/linux/.config
-	nvim
-15
-d/home/linux/.config/nvim
-	vim-plug
-3
-d/home/linux/.config/nvim/vim-plug
-	plugins.vim
-1
-d/home/linux/.config/nvim
-	vim-plug
-3
-d/home/linux/.config
-	obs-studio
-24
-d/home/linux
-	Desktop
-19
-d/home/linux/Desktop
-	Open-Palm
-3
-d/home/linux/Desktop/Open-Palm
-	src
-5
-d/home/linux/Desktop/Open-Palm/src
-	MainUI.py
-4
-d/home/linux/Desktop/Open-Palm
-	src
-5
-d/home/linux/Desktop
-	Nova-Striker.github.io
-2
-d/home/linux
-	.config
-2
-d/home/linux/.config
-	nvim
-23
-d/home/linux/.config/nvim
-	init.vim
-4
-d/home/linux/.config
-	nvim
-23
-d/home/linux
-	Desktop
-19
-d/home/linux/Desktop
-	PersonalFiles
-4
-d/home/linux/Desktop/PersonalFiles
-	loadingscreen.py
-16
-d/home/linux/Desktop
-	PersonalFiles
-4
-d/home/linux
-	.config
-2
-d/home/linux/.config
-	nvim
-15
-d/home/linux/.config/nvim
-	vim-plug
-3
-d/home/linux/.config/nvim/vim-plug
-	plugins.vim
-1
-d/home/linux/.config/nvim
-	init.vim
-4
 d
 
 # Right window history (oldest to newest):
@@ -352,6 +356,8 @@ D/home/linux
 D
 
 # Command line history (oldest to newest):
+:touch func.vim
+:touch imports.py
 :touch multi.py
 :touch 5.py
 :touch d.cpp
@@ -405,7 +411,6 @@ D
 :touch sqrs.cpp
 :vicd
 :cq
-:w
 :touch b.cpp
 :touch c.cpp
 :touch e.cpp
@@ -421,17 +426,37 @@ D
 :touch decorators.py
 :touch factorial.py
 :touch factorial2.py
+:touch loadingscreen.py
+:mkdir .config
+:git push origin main
 :Q
 :q
+:fzf
+:w
+:mkdir snippets
+:touch pydef
+:touch pydef.py
+:touch fibogen.py
+:mv fibigen.py fibonnaci_generator.py
+:touch cpp.cpp
+:touch cls.py
 :Wq
+:noh
 :wq
-:touch loadingscreen.py
+:mkdir alacritty
+:touch alacritty.yml
+:pwd
+:mkdir deepmodel
+:touch README.md
 
 # Search history (oldest to newest):
 /nv
 /bas
 /vi
 /sp
+/.config
+/my.
+/mysql
 
 # Prompt history (oldest to newest):
 pinit.vim
@@ -439,7 +464,7 @@ pinit.vim
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/linux/.local/share/vifm/Trash/000_factorial.py
+""/home/linux/.p10k.zsh
 
 # Directory stack (oldest to newest):
 
@@ -462,6 +487,36 @@ t/home/linux/.local/share/vifm/Trash/001_op
 	/home/linux/Desktop/op
 t/home/linux/.local/share/vifm/Trash/000_factorial.py
 	/home/linux/Desktop/Python-4-Beginners/BasicMathematics/factorial.py
+t/home/linux/.local/share/vifm/Trash/000_vifm
+	/home/linux/Desktop/mydotfiles/vifm
+t/home/linux/.local/share/vifm/Trash/000_Among.Us.v2020.9.9s
+	/home/linux/Downloads/croc-shares/Among.Us.v2020.9.9s
+t/home/linux/.local/share/vifm/Trash/000_Among.Us.v2020.9.9s-20201022T075628Z-001.zip
+	/home/linux/Downloads/croc-shares/Among.Us.v2020.9.9s-20201022T075628Z-001.zip
+t/home/linux/.local/share/vifm/Trash/000_pydef
+	/home/linux/.config/nvim/snippets/pydef
+t/home/linux/.local/share/vifm/Trash/000_.gitignore
+	/home/linux/Desktop/Open-Palm/src/.gitignore
+t/home/linux/.local/share/vifm/Trash/000_a.out
+	/home/linux/a.out
+t/home/linux/.local/share/vifm/Trash/000_alacritty.yml
+	/home/linux/.config/alacritty/alacritty.yml
+t/home/linux/.local/share/vifm/Trash/000_mysql-apt-config_0.8.10-1_all.deb
+	/home/linux/mysql-apt-config_0.8.10-1_all.deb
+t/home/linux/.local/share/vifm/Trash/000_mysql-apt-config_0.8.10-1_all.deb.1
+	/home/linux/mysql-apt-config_0.8.10-1_all.deb.1
+t/home/linux/.local/share/vifm/Trash/000_.python_history-04725.tmp
+	/home/linux/.python_history-04725.tmp
+t/home/linux/.local/share/vifm/Trash/000_.python_history-05638.tmp
+	/home/linux/.python_history-05638.tmp
+t/home/linux/.local/share/vifm/Trash/000_.python_history-14751.tmp
+	/home/linux/.python_history-14751.tmp
+t/home/linux/.local/share/vifm/Trash/000_.sudo_as_admin_successful
+	/home/linux/.sudo_as_admin_successful
+t/home/linux/.local/share/vifm/Trash/000_.python_history-22819.tmp
+	/home/linux/.python_history-22819.tmp
+t/home/linux/.local/share/vifm/Trash/000_.python_history-47339.tmp
+	/home/linux/.python_history-47339.tmp
 
 # State:
 f

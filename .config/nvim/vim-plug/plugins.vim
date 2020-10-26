@@ -24,4 +24,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'subnut/vim-smoothie'
     Plug 'luochen1990/rainbow'
     Plug 'kristijanhusak/vim-carbon-now-sh'
+    Plug 'ryanoasis/vim-devicons'
 call plug#end()

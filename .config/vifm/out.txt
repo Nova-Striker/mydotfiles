@@ -1,0 +1,1 @@
+/home/linux/.config/vifm/vifm_devicons

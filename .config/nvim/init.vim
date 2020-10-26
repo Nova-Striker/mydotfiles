@@ -1,10 +1,12 @@
 source $HOME/.config/nvim/vim-plug/plugins.vim
+source $HOME/.config/nvim/func.vim
 set nu
 filetype on
 imap jj <Esc>
 map <Leader>vv :Vifm<CR>
-autocmd FileType python map <buffer> <F9> :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
-autocmd FileType python imap <buffer> <F9> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
+autocmd FileType python map <buffer> <F9> :w<CR>:exec '!python3.9' shellescape(@%, 1)<CR>
+autocmd FileType python imap <buffer> <F9> <esc>:w<CR>:exec '!python3.9' shellescape(@%, 1)<CR>
+
 " Remove newbie crutches in Command Mode
 cnoremap <Down> <Nop>
 cnoremap <Left> <Nop>
@@ -89,3 +91,4 @@ let g:rainbow_active = 1
 
 "Carbon Hotkey mapped to F5
 vnoremap <F5> :CarbonNowSh<CR>
+

@@ -481,3 +481,5 @@ nnoremap <f8> :delete<cr>
 "     vifm --server-name "$VIFM_SERVER_NAME" --remote +"cd '$PWD'"
 "
 " let $VIFM_SERVER_NAME = v:servername
+" file types
+source /home/linux/.config/vifm/vifm_devicons/favicons.vifm
