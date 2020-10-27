@@ -22,4 +22,14 @@ Big changes made on 24 October 2020
   It can now be used with only Beekeeper. Looking for a solution to fix this for the time being. 
   
  
+<<<<<<< HEAD
 
+=======
+#### Changes on 26 oct :
+   1. Installed [Ranger](https://github.com/ranger/ranger) and planning to shift from vifm
+   2. Installed a [neovim plugin](https://github.com/iamcco/markdown-preview.nvim) that allows to see live updates to a markdown file.
+   
+   
+   ![Alt Text](https://media.giphy.com/media/JbpMvUgzz7bVOUs3W1/giphy.gif)
+   
+>>>>>>> 05937c9ffcfcf8a55ff8c90f49b3957130b3e98f
