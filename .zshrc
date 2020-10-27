@@ -1,28 +1,20 @@
-
-# .----------------.  .----------------.  .----------------.  .----------------.  .----------------. 
-#| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
-#| |   ________   | || |    _______   | || |  ____  ____  | || |  _______     | || |     ______   | |
-#| |  |  __   _|  | || |   /  ___  |  | || | |_   ||   _| | || | |_   __ \    | || |   .' ___  |  | |
-#| |  |_/  / /    | || |  |  (__ \_|  | || |   | |__| |   | || |   | |__) |   | || |  / .'   \_|  | |
-#| |     .'.' _   | || |   '.___`-.   | || |   |  __  |   | || |   |  __ /    | || |  | |         | |
-#| |   _/ /__/ |  | || |  |`\____) |  | || |  _| |  | |_  | || |  _| |  \ \_  | || |  \ `.___.'\  | |
-#| |  |________|  | || |  |_______.'  | || | |____||____| | || | |____| |___| | || |   `._____.'  | |
-#| |              | || |              | || |              | || |              | || |              | |
-#| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
-# '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
-
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/linux/.oh-my-zsh"
-
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -113,21 +105,25 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'
 alias zcf="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias python="python3.9"
+alias nvcf="nvim ~/.config/nvim/init.vim"
+alias home="cd /home/linux/Desktop"
+alias r="ranger"
+alias v="vifm"
 
 #vim mode
 bindkey -v
-export KEYTIMEOUT=20
+export KEYTIMEOUT=20 #It makes sure that mapping jj to Esc is possible and there is enough time for zsh to recoginise double `jj`
 
 
-#vim keybindings for zsh
+#vim keybindings for zsh. Allows to use vim keys in autocomplete suggestions tab
 bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'k' vi-up-line-or-history
 bindkey -M menuselect 'l' vi-forward-char
 bindkey -M menuselect 'j' vi-down-line-or-history
 bindkey -v '^?' backward-delete-char
-bindkey -M viins 'jj' vi-cmd-mode
+bindkey -M viins 'jj' vi-cmd-mode #Maps the jj key to Escape 
 
-#A modification for vifm to open the directory navigated to 
+#A modification for vifm to open the directory navigated to using vifm 
 vicd()
 {
     local dst="$(command vifm --choose-dir - "$@")"
@@ -138,7 +134,7 @@ vicd()
     cd "$dst"
 }
 
-# Change cursor shape for different vi modes.
+# Change cursor shape for different vi modes. Use `|` for insert and █ for normal mode
 function zle-keymap-select {
   if [[ ${KEYMAP} == vicmd ]] ||
      [[ $1 = 'block' ]]; then
@@ -159,6 +155,13 @@ zle -N zle-line-init
 echo -ne '\e[5 q' # Use beam shape cursor on startup.
 preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 
-#Always put this at last. 
+
+
+#Always put this at last.It enables syntax highlighting
 source /home/linux/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
