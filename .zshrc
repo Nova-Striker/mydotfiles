@@ -114,9 +114,9 @@ alias v="vifm"
 vnv39(){python3.9 -m virtualenv "$1"}
 vnv38(){python3.8 -m virtualenv "$1"}
 
-#This installed packages in appropriate python versions. Give the name of the package as parameter
-pip38(){python3.8 -m pip install "$1"}
-pip39(){python3.9 -m pip install "$1"}
+#This separates the pip for python3.9 and python3.8 . Pass in parameter as you normally would to `pip`
+pip38(){python3.8 -m pip "$1"}
+pip39(){python3.9 -m pip "$1"}
 
 #This creates a requirements.txt file. Recommended use : Use only in virtual environment to prevent adding unnecessary modules to requirements.txt
 genreq(){pip3 freeze>requirements.txt || echo "There is some error."}
