@@ -77,7 +77,7 @@ export UPDATE_ZSH_DAYS=10
 plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 
 # User configuration
 
@@ -103,6 +103,7 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'
 #
 # Example aliases
 alias zcf="nvim ~/.zshrc"
+alias szcf="source ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias python="python3.9"
 alias nvcf="nvim ~/.config/nvim/init.vim"
@@ -114,12 +115,18 @@ alias v="vifm"
 vnv39(){python3.9 -m virtualenv "$1"}
 vnv38(){python3.8 -m virtualenv "$1"}
 
-#This separates the pip for python3.9 and python3.8 . Pass in parameter as you normally would to `pip`
+#This installs packages in appropriate python versions. Give the name of the package as parameter
 pip38(){python3.8 -m pip "$1"}
 pip39(){python3.9 -m pip "$1"}
 
 #This creates a requirements.txt file. Recommended use : Use only in virtual environment to prevent adding unnecessary modules to requirements.txt
 genreq(){pip3 freeze>requirements.txt || echo "There is some error."}
+
+#A single function for adding , commiting to local repo and pulling and pushing to remote repo.
+#Pass in branch name as first param and commit message as second param.
+gitdo(){
+  git add -A && git commit -m "$2" || git pull origin "$1" && git push origin "$1"
+}
 
 #vim mode
 bindkey -v
