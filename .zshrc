@@ -123,7 +123,7 @@ pip39(){python3.9 -m pip "$1"}
 genreq(){pip3 freeze>requirements.txt || echo "There is some error."}
 
 #A single function for adding , commiting to local repo and pulling and pushing to remote repo.
-#Pass in branch name as first param and commit message as second param.
+#Pass in branch name as first param and commit message as second param(as string).
 gitdo(){
   git add -A && git commit -m "$2" || git pull origin "$1" && git push origin "$1"
 }
