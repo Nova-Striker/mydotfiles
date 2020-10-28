@@ -106,9 +106,20 @@ alias zcf="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias python="python3.9"
 alias nvcf="nvim ~/.config/nvim/init.vim"
-alias home="cd /home/linux/Desktop"
+alias home="cd /home/linux/Desktop/Files"
 alias r="ranger"
 alias v="vifm"
+
+#This creates venv using appropriate python versions. Give the name of venv as parameter
+vnv39(){python3.9 -m virtualenv "$1"}
+vnv38(){python3.8 -m virtualenv "$1"}
+
+#This installed packages in appropriate python versions. Give the name of the package as parameter
+pip38(){python3.8 -m pip install "$1"}
+pip39(){python3.9 -m pip install "$1"}
+
+#This creates a requirements.txt file. Recommended use : Use only in virtual environment to prevent adding unnecessary modules to requirements.txt
+genreq(){pip3 freeze>requirements.txt || echo "There is some error."}
 
 #vim mode
 bindkey -v
