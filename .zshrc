@@ -110,22 +110,45 @@ alias nvcf="nvim ~/.config/nvim/init.vim"
 alias home="cd /home/linux/Desktop/Files"
 alias r="ranger"
 alias v="vifm"
+alias marialogin="mariadb -u jdeep -p"
+alias pip39="python3.9 -m pip"
+alias pip38="python3.8 -m pip"
 
 #This creates venv using appropriate python versions. Give the name of venv as parameter
-vnv39(){python3.9 -m virtualenv "$1"}
-vnv38(){python3.8 -m virtualenv "$1"}
-
-#This installs packages in appropriate python versions. Give the name of the package as parameter
-pip38(){python3.8 -m pip "$1"}
-pip39(){python3.9 -m pip "$1"}
+vnv39(){
+  if [ -z "$1" ]
+    then
+      echo "vnv39 [name of env]"
+    else
+      python3.9 -m virtualenv "$1"
+      echo "You are in Venv"
+      source "$1/bin/activate"
+  fi
+}
+vnv38(){
+  if [ -z "$1" ]
+    then
+      echo "vnv38 [name of env]"
+    else
+      python3.8 -m virtualenv "$1"
+      echo "You are in Venv"
+      source "$1/bin/activate"
+  fi
+}
 
 #This creates a requirements.txt file. Recommended use : Use only in virtual environment to prevent adding unnecessary modules to requirements.txt
 genreq(){pip3 freeze>requirements.txt || echo "There is some error."}
 
 #A single function for adding , commiting to local repo and pulling and pushing to remote repo.
-#Pass in branch name as first param and commit message as second param(as string).
+#Pass in branch name as first param and commit message as second param(as string) .
 gitdo(){
-  git add -A && git commit -m "$2" || git pull origin "$1" && git push origin "$1"
+  echo "gitdo <branch_name> <commit message>"
+  if [ -z "$2" ]
+    then
+    git add -A && git commit -m "Automated commits" || git pull origin "$1" && git push origin "$1"
+  else
+    git add -A && git commit -m "$2" || git pull origin "$1" && git push origin "$1"
+  fi
 }
 
 #vim mode
