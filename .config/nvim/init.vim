@@ -2,6 +2,12 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/func.vim
 set nu
 filetype on
+set nocompatible
+filetype plugin on
+" turn hybrid line numbers on
+set number relativenumber
+set nu rnu
+syntax on
 imap jj <Esc>
 map <Leader>vv :Vifm<CR>
 autocmd FileType python map <buffer> <F9> :w<CR>:exec '!python3.9' shellescape(@%, 1)<CR>
@@ -70,18 +76,6 @@ autocmd vimenter * colorscheme gruvbox
 nnoremap <C-c> :!g++ -o  %:r.out % -std=c++11<Enter>
 nnoremap <C-x> :!./%:r.out
 autocmd filetype cpp nnoremap <f5> :w <bar> !g++ -std=c++11 -O2 -Wall % -o %:r && %:r.exe <cr>
-
-"Neomake Setup
-" When writing a buffer (no delay).
-call neomake#configure#automake('w')
-" When writing a buffer (no delay), and on normal mode changes (after 750ms).
-call neomake#configure#automake('nw', 750)
-" When reading a buffer (after 1s), and when writing (no delay).
-call neomake#configure#automake('rw', 1000)
-" Full config: when writing or reading a buffer, and on changes in insert and
-" normal mode (after 500ms; no delay when writing).
-call neomake#configure#automake('nrwi', 500)
-
 "Snippets
 nnoremap ,def :-1read /home/linux/.config/nvim/snippets/pydef.py<CR>jwea
 nnoremap ,cpp :-1read /home/linux/.config/nvim/snippets/cpp.cpp<CR>
@@ -178,7 +172,6 @@ let g:mkdp_port = ''
 " preview page title
 " ${name} will be replace with the file name
 let g:mkdp_page_title = '「${name}」'
-
 
 "Carbon Hotkey mapped to F5
 vnoremap <F5> :CarbonNowSh<CR>

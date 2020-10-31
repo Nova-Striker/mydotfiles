@@ -20,10 +20,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'joshdick/onedark.vim'
     Plug 'gruvbox-community/gruvbox'
     Plug 'drewtempelmeyer/palenight.vim'
-    Plug 'neomake/neomake'
     Plug 'subnut/vim-smoothie'
     Plug 'luochen1990/rainbow'
     Plug 'kristijanhusak/vim-carbon-now-sh'
+    Plug 'dense-analysis/ale'
     Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+    Plug 'vimwiki/vimwiki'
     Plug 'ryanoasis/vim-devicons'
 call plug#end()

@@ -9,6 +9,10 @@
 	/home/linux/
 	..
 1600540658
+'k
+	/home/linux/Desktop/Files/ytdl/ytdlgui
+	core
+1604129300
 'v
 	/home/linux/Desktop/Python-4-Beginners/PythonSpecific
 	fibogen.py
@@ -26,159 +30,15 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/etc/mysql
-	mariadb.conf.d
-1
-d/etc/mysql/mariadb.conf.d
-	..
-0
-d/etc/mysql
-	debian.cnf
+d/home/linux/Desktop/Files/Open-Palm/src
+	MainUI.py
 4
-d/etc
-	mysql
-23
-d/etc/mysql
-	conf.d
-1
-d/etc/mysql/conf.d
-	mysqldump.cnf
-2
-d/etc/mysql
-	mysql.conf.d
-2
-d/etc/mysql/mysql.conf.d
-	mysqld.cnf
-2
-d/etc/mysql
-	mysql.conf.d
-2
-d/etc/mysql/mysql.conf.d
-	mysqld.cnf
-2
-d/etc/mysql
-	conf.d
-1
-d/etc/mysql/conf.d
-	mysql.cnf
-1
-d/etc/mysql
-	mysql.conf.d
-2
-d/etc/mysql/mysql.conf.d
-	mysqld.cnf
-2
-d/etc/mysql
-	conf.d
-1
-d/etc/mysql/conf.d
-	mysqldump.cnf
-2
-d/etc/mysql
-	mysql.conf.d
-2
-d/etc/mysql/mysql.conf.d
-	mysqld.cnf
-2
-d/etc/mysql
-	mysql.conf.d
-2
-d/etc
-	mysql
-23
-d/
-	var
-24
-d/var
-	run
-11
-d/var/run
-	mysqld
-15
-d/var/run/mysqld
-	..
-0
-d/var/run
-	mysqld
-15
-d/var/run/mysqld
-	..
-0
-d/var/run
-	mysqld
-15
-d/var/run/mysqld
-	..
-0
-d/var/run
-	mysqld
-15
-d/var/run/mysqld
-	..
-0
-d/var/run
-	mysqld
-15
-d/var/run/mysqld
-	..
-0
-d/var/run
-	sudo
-11
-d/var/run/sudo
-	..
-0
-d/var/run
-	sudo
-11
-d/var
-	run
-11
-d/
-	home
-5
-d/home
-	linux
-1
-d/home/linux
-	Desktop
-23
-d/home/linux/Desktop
-	mydotfiles
-10
-d/home/linux/Desktop/mydotfiles
-	.zshrc
-8
-d/home/linux/Desktop
-	mydotfiles
-10
-d/home/linux
-	Desktop
-23
-d/home
-	linux
-1
-d/
-	home
-5
-d/home
-	linux
-1
-d/home/linux
-	Desktop
-18
-d/home/linux/Desktop
-	Files
-1
+d/home/linux/Desktop/Files/Open-Palm
+	src
+7
 d/home/linux/Desktop/Files
-	..
-0
-d/home/linux/Desktop
-	Files
-1
-d/home/linux
-	Desktop
-18
+	Open-Palm
+3
 d/home/linux/Desktop
 	Files
 1
@@ -186,146 +46,290 @@ d/home/linux
 	.config
 3
 d/home/linux/.config
-	alacritty
-3
-d/home/linux/.config/alacritty
+	nvim
+28
+d/home/linux/.config/nvim
+	vim-plug
+4
+d/home/linux/.config/nvim/vim-plug
 	..
 0
-d/home/linux/.config
-	beekeeper-studio
-6
-d/home/linux/.config/beekeeper-studio
-	GPUCache
+d/home/linux/.config/nvim
+	vim-plug
 4
+d/home/linux/.config/nvim/vim-plug
+	plugins.vim
+1
+d/home/linux/.config/nvim
+	init.vim
+6
 d/home/linux/.config
-	neofetch
-26
+	nvim
+28
 d/home/linux
 	Desktop
-23
+26
 d/home/linux/Desktop
 	Files
 1
+d/home/linux/Desktop/Files
+	Open-Palm
+3
+d/home/linux/Desktop/Files/Open-Palm
+	src
+7
+d/home/linux/Desktop/Files/Open-Palm/src
+	MainUI.py
+4
+d/home/linux/Desktop/Files/Open-Palm
+	src
+7
+d/home/linux/Desktop/Files
+	Open-Palm
+3
+d/home/linux/Desktop
+	Files
+1
+d/home/linux
+	Desktop
+26
+d/home/linux/Desktop
+	Files
+1
+d/home/linux/Desktop/Files
+	PersonalFiles
+4
+d/home/linux/Desktop/Files/PersonalFiles
+	prgs.py
+26
+d/home/linux/Desktop/Files
+	PersonalFiles
+4
+d/home/linux/Desktop
+	Files
+1
+d/home/linux/Desktop/Files
+	Open-Palm
+3
+d/home/linux/Desktop/Files/Open-Palm
+	src
+7
+d/home/linux/Desktop/Files/Open-Palm/src
+	MainUI.py
+4
+d/home/linux/Desktop/Files/Open-Palm
+	src
+7
+d/home/linux/Desktop/Files
+	Open-Palm
+3
+d/home/linux/Desktop
+	Files
+1
+d/home/linux/Desktop/Files
+	ytdl
+15
+d/home/linux/Desktop/Files/ytdl
+	..
+0
+d/home/linux/Desktop/Files
+	ytdl
+15
+d/home/linux/Desktop/Files/ytdl
+	ytdl
+1
+d/home/linux/Desktop/Files
+	ytdl
+15
+d/home/linux/Desktop
+	Files
+1
+d/home/linux
+	.config
+3
+d/home/linux/.config
+	nvim
+26
+d/home/linux/.config/nvim
+	vim-plug
+4
+d/home/linux/.config/nvim/vim-plug
+	..
+0
+d/home/linux/.config/nvim
+	vim-plug
+4
+d/home/linux/.config
+	nvim
+26
+d/home/linux
+	Desktop
+26
+d/home/linux/Desktop
+	Files
+1
+d/home/linux/Desktop/Files
+	Open-Palm
+3
+d/home/linux/Desktop/Files/Open-Palm
+	src
+7
+d/home/linux/Desktop/Files/Open-Palm/src
+	MainUI.py
+4
+d/home/linux/Desktop/Files/Open-Palm
+	src
+7
+d/home/linux/Desktop/Files
+	PersonalFiles
+4
+d/home/linux/Desktop/Files/PersonalFiles
+	distest.py
+21
+d/home/linux/Desktop/Files
+	PersonalFiles
+4
+d/home/linux/Desktop
+	Files
+1
+d/home/linux/Desktop/Files
+	ytdl
+15
+d/home/linux/Desktop/Files/ytdl
+	ytdl
+1
+d/home/linux/Desktop/Files/ytdl/ytdl
+	lib
+3
+d/home/linux/Desktop/Files/ytdl
+	ytdl-gui
+2
+d/home/linux/Desktop/Files/ytdl/ytdl-gui
+	__init__.py
+1
+d/home/linux/Desktop/Files/ytdl
+	ytdlgui
+2
+d/home/linux/Desktop/Files/ytdl/ytdlgui
+	__init__.py
+1
+d/home/linux/Desktop/Files/ytdl
+	ytdlgui
+2
+d/home/linux/Desktop/Files/ytdl/ytdlgui
+	__init__.py
+1
+d/home/linux/Desktop/Files/ytdl
+	ytdlgui
+2
+d/home/linux/Desktop/Files/ytdl/ytdlgui
+	gui
+2
+d/home/linux/Desktop/Files/ytdl/ytdlgui/gui
+	ytdlgui.py
+1
+d/home/linux/Desktop/Files/ytdl/ytdlgui
+	util
+3
+d/home/linux/Desktop/Files/ytdl/ytdlgui/util
+	..
+0
+d/home/linux/Desktop/Files/ytdl/ytdlgui
+	gui
+2
+d/home/linux/Desktop/Files/ytdl/ytdlgui/gui
+	ytdlgui.py
+1
+d/home/linux/Desktop/Files/ytdl/ytdlgui
+	gui
+2
+d/home/linux/Desktop/Files/ytdl
+	ytdlgui
+2
+d/home/linux/Desktop/Files/ytdl/ytdlgui
+	gui
+2
+d/home/linux/Desktop/Files/ytdl/ytdlgui/gui
+	ytdlgui.py
+1
+d/home/linux/Desktop/Files/ytdl/ytdlgui
+	gui
+2
+d/home/linux/Desktop/Files/ytdl/ytdlgui/gui
+	ytdlgui.py
+2
+d/home/linux/Desktop/Files/ytdl/ytdlgui
+	gui
+2
+d/home/linux/Desktop/Files/ytdl
+	ytdlgui
+1
+d/home/linux/Desktop/Files
+	ytdl
+15
+d/home/linux/Desktop
+	python-xlib
+2
+d/home/linux/Desktop/python-xlib
+	Xlib
+3
+d/home/linux/Desktop
+	python-xlib
+2
+d/home/linux/Desktop/python-xlib
+	Xlib
+3
+d/home/linux/Desktop
+	Files
+1
+d/home/linux
+	Desktop
+26
+d/home/linux/Desktop
+	Files
+1
+d/home/linux/Desktop/Files
+	PythonPrograms
+6
+d/home/linux/Desktop
+	Files
+1
+d/home/linux
+	Documents
+4
+d/home/linux/Documents
+	..
+0
+d/home/linux
+	Desktop
+4
+d/home/linux/Desktop
+	Files
+1
+d/home/linux/Desktop/Files
+	PythonPrograms
+6
+d/home/linux/Desktop
+	Files
+1
+d/home/linux/Desktop/Files
+	PythonPrograms
+6
+d/home/linux/Desktop/Files/PythonPrograms
+	..
+0
 d/home/linux/Desktop/Files
 	Python-4-Beginners
 5
 d/home/linux/Desktop/Files/Python-4-Beginners
-	..
-0
-d/home/linux/Desktop/Files
-	Python-4-Beginners
-5
-d/home/linux/Desktop
-	Files
-1
-d/home/linux
-	Desktop
-23
-d/home
-	linux
-1
-d/home/linux
-	.conda
-2
-d/home/linux/.conda
-	..
-0
-d/home/linux
-	.config
+	Algorithms
 3
-d/home/linux/.config
-	..
-0
-d/home/linux
-	.config
-3
-d/home/linux/.config
-	alacritty
-3
-d/home/linux/.config/alacritty
-	alacritty.yml
-1
-d/home/linux/.config
-	alacritty
-3
-d/home/linux
-	Desktop
-8
-d/home/linux/Desktop
-	Files
-1
 d/home/linux/Desktop/Files
-	mydotfiles
-9
-d/home/linux/Desktop/Files/mydotfiles
-	.fzf.zsh
-7
-d/home/linux/Desktop/Files
-	mydotfiles
-9
-d/home/linux/Desktop
-	Files
-1
-d/home/linux
-	Desktop
-12
-d/home/linux/Desktop
-	Files
-1
-d/home/linux/Desktop/Files
-	mydotfiles
-9
-d/home/linux/Desktop/Files/mydotfiles
-	.vscode
+	PersonalFiles
 4
-d/home/linux/Desktop/Files
-	bot
-7
-d/home/linux/Desktop/Files/bot
-	activate
-1
-d/home/linux/Desktop/Files/bot/activate
-	bin
-1
-d/home/linux/Desktop/Files/bot/activate/bin
-	activate
-1
-d/home/linux/Desktop/Files/bot/activate
-	bin
-1
-d/home/linux/Desktop/Files/bot
-	activate
-1
-d/home/linux/Desktop/Files/bot/activate
-	bin
-1
-d/home/linux/Desktop/Files/bot
-	bot
-2
-d/home/linux/Desktop/Files
-	deepmodel
-8
-d/home/linux/Desktop/Files/deepmodel
-	deepmodel
-1
-d/home/linux/Desktop/Files/deepmodel/deepmodel
-	lib
-2
-d/home/linux/Desktop/Files/deepmodel/deepmodel/lib
-	python3.8
-1
-d/home/linux/Desktop/Files/deepmodel/deepmodel/lib/python3.8
-	site-packages
-1
-d/home/linux/Desktop/Files/deepmodel/deepmodel/lib
-	python3.8
-1
-d/home/linux/Desktop/Files/deepmodel/deepmodel
-	lib
-3
-d/home/linux/Desktop/Files/deepmodel
-	deepmodel
-2
+d/home/linux/Desktop/Files/PersonalFiles
+	distest.py
+21
 d
 
 # Right window history (oldest to newest):
@@ -356,11 +360,7 @@ D/home/linux
 D
 
 # Command line history (oldest to newest):
-:touch func.vim
-:touch imports.py
-:touch multi.py
-:touch 5.py
-:touch d.cpp
+:touch lorem.md
 :touch inp.cpp
 :touch arrays.cpp
 :touch even.cpp
@@ -427,7 +427,6 @@ D
 :touch factorial.py
 :touch factorial2.py
 :touch loadingscreen.py
-:mkdir .config
 :git push origin main
 :Q
 :q
@@ -442,14 +441,29 @@ D
 :touch cls.py
 :Wq
 :noh
-:wq
 :mkdir alacritty
 :touch alacritty.yml
 :pwd
 :mkdir deepmodel
+:mkdir .config
 :touch README.md
+:mkdir hotelsys
+:wq
+:touch __repr__.py
+:mkdir winpalm
+:touch prgsbar
+:touch prgs.py
+:mkdir ytdl
+:touch distest.py
+:touch __init__.py
+:touch __main__.py
+:mkdir gui
+:mkdir core
+:mkdir util
+:touch ytdlgui.py
 
 # Search history (oldest to newest):
+/my
 /nv
 /bas
 /vi
@@ -464,7 +478,7 @@ pinit.vim
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/linux/.p10k.zsh
+""/home/linux/.local/share/vifm/Trash/000_python-xlib
 
 # Directory stack (oldest to newest):
 
@@ -517,6 +531,64 @@ t/home/linux/.local/share/vifm/Trash/000_.python_history-22819.tmp
 	/home/linux/.python_history-22819.tmp
 t/home/linux/.local/share/vifm/Trash/000_.python_history-47339.tmp
 	/home/linux/.python_history-47339.tmp
+t/home/linux/.local/share/vifm/Trash/000_.config
+	/home/linux/Desktop/Files/mydotfiles/.config
+t/home/linux/.local/share/vifm/Trash/000_ranger
+	/home/linux/Desktop/Files/mydotfiles/.config/ranger
+t/home/linux/.local/share/vifm/Trash/000_tmpap6pl1f8
+	/tmp/tmpap6pl1f8
+t/home/linux/.local/share/vifm/Trash/000_tmpcj3alg_z
+	/tmp/tmpcj3alg_z
+t/home/linux/.local/share/vifm/Trash/000_tmpgus87eij
+	/tmp/tmpgus87eij
+t/home/linux/.local/share/vifm/Trash/000_tmphcfw53sq
+	/tmp/tmphcfw53sq
+t/home/linux/.local/share/vifm/Trash/000_tmpu2lr8zvd
+	/tmp/tmpu2lr8zvd
+t/home/linux/.local/share/vifm/Trash/000_tmp0w1kc7hj
+	/tmp/tmp0w1kc7hj
+t/home/linux/.local/share/vifm/Trash/000_tmp1xuiyarl
+	/tmp/tmp1xuiyarl
+t/home/linux/.local/share/vifm/Trash/000_tmp7zr5sd2e
+	/tmp/tmp7zr5sd2e
+t/home/linux/.local/share/vifm/Trash/000_tmpmkgsis5l
+	/tmp/tmpmkgsis5l
+t/home/linux/.local/share/vifm/Trash/000_requirements.txt
+	/home/linux/Desktop/requirements.txt
+t/home/linux/.local/share/vifm/Trash/001_requirements.txt
+	/home/linux/Desktop/Files/requirements.txt
+t/home/linux/.local/share/vifm/Trash/000_Public
+	/home/linux/Desktop/Files/PersonalFiles/Public
+t/home/linux/.local/share/vifm/Trash/000_.git
+	/home/linux/Desktop/Files/PersonalFiles/.git
+t/home/linux/.local/share/vifm/Trash/000_hotel
+	/home/linux/Desktop/Files/hotelsys/hotel
+t/home/linux/.local/share/vifm/Trash/000_udo systemctl stop mysql
+	/home/linux/Desktop/udo systemctl stop mysql
+t/home/linux/.local/share/vifm/Trash/000_winpalm
+	/home/linux/Desktop/Files/winpalm
+t/home/linux/.local/share/vifm/Trash/000_PIL
+	/home/linux/Desktop/Files/Open-Palm/src/open-palm/lib/python3.9/site-packages/PIL
+t/home/linux/.local/share/vifm/Trash/000_file.py
+	/home/linux/Desktop/Files/Open-Palm/src/file.py
+t/home/linux/.local/share/vifm/Trash/000_open-palm
+	/home/linux/Desktop/Files/Open-Palm/src/open-palm
+t/home/linux/.local/share/vifm/Trash/000_openpalm
+	/home/linux/Desktop/openpalm
+t/home/linux/.local/share/vifm/Trash/000_prgsbar
+	/home/linux/Desktop/Files/PersonalFiles/prgsbar
+t/home/linux/.local/share/vifm/Trash/000_ytdl-d.sh
+	/home/linux/Desktop/Files/ytdl/ytdl-d.sh
+t/home/linux/.local/share/vifm/Trash/000_vimwiki_html
+	/home/linux/vimwiki_html
+t/home/linux/.local/share/vifm/Trash/000_vimwiki
+	/home/linux/vimwiki
+t/home/linux/.local/share/vifm/Trash/000___main__.py
+	/home/linux/Desktop/Files/ytdl/ytdlgui/__main__.py
+t/home/linux/.local/share/vifm/Trash/000_venv-ytdl
+	/home/linux/Desktop/Files/ytdl/venv-ytdl
+t/home/linux/.local/share/vifm/Trash/000_python-xlib
+	/home/linux/Desktop/python-xlib
 
 # State:
 f
