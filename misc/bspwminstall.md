@@ -50,7 +50,7 @@ Next copy the `bspwmrc` and `sxhkdrc` in `~/usr/share/doc/bspwm/examples` to you
 
 ##### Step 3 : Making executables and firing up bspwm
 
-Normally , the `bspwmrc` file that you copied just now should be an executable. You can check if its an executable or not from the this SO post or if you have a file manager like `vifm` or `ranger` then , placing the cursor on `bspwmrc` file should highlight it in `green` colour (which means that its an executable and you can proceed to the next step) 
+Normally , the `bspwmrc` file that you copied just now should be an executable. You can check if its an executable or not from the [this SO post](https://stackoverflow.com/questions/10319652/check-if-a-file-is-executable) or if you have a file manager like `vifm` or `ranger` then , placing the cursor on `bspwmrc` file should highlight it in `green` colour (which means that its an executable and you can proceed to the next step) 
 
 See this:
 
