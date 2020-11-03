@@ -17,10 +17,12 @@ apt install bspwm
 
 You should get a prompt like this :
 
+![alt text](https://github.com/Nova-Striker/mydotfiles/blob/main/pictures/pic-1.png?raw=true)
 
 
 See carefully that the dependencies like `bspwm lemonbar libxcb-ewmh2 sxhkd xdo` are automatically installed so you dont have to install these manually. Keep in mind though that if you are building from [source](https://github.com/baskerville/bspwm/wiki#dependencies) , you would need to install these dependencies manually either  from debian repository or by building them from source
 
+------
 
 ##### Step 2 : Configuring bspwm and sxhkd
 
@@ -44,17 +46,23 @@ Next copy the `bspwmrc` and `sxhkdrc` in `~/usr/share/doc/bspwm/examples` to you
 
 `cp /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd`
 
+------
+
 ##### Step 3 : Making executables and firing up bspwm
 
 Normally , the `bspwmrc` file that you copied just now should be an executable. You can check if its an executable or not from the this SO post or if you have a file manager like `vifm` or `ranger` then , placing the cursor on `bspwmrc` file should highlight it in `green` colour (which means that its an executable and you can proceed to the next step) 
 
 See this:
+![alt text](https://github.com/Nova-Striker/mydotfiles/blob/main/pictures/pic-2.png?raw=true)
+
+------
 
 
 ##### Step 4 : Modifying the `.sxhkdrc` so that you can open some apps after logging into bspwm.
 
 If you did the above steps correctly , you should see something like this in your `sxhkdrc`
 
+![alt text](https://github.com/Nova-Striker/mydotfiles/blob/main/pictures/pic-3.png?raw=true)
 
 Even if you have not got that , you can just copy the example `sxhkdrc` from here:
 
@@ -195,6 +203,7 @@ super + Return
 
 You can also add your keybindings for opening web browser. 
 
+-------
 
 ##### Step 5 : Putting bspwm in your `.xsession` or `.Xsession` or `xsessionrc` or `.xinit` file.
 
@@ -213,6 +222,7 @@ exec bspwm
 
 *Note 3* : I got my `bspwm` running by adding the above lines in `.xsessionrc` . It may be possible that in your case you have to add the lines in `.xsession` or any other file mentioned in the heading.
 
+---------
 
 ##### Step 6 : Making the `xsession` file executable
 
