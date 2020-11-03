@@ -245,7 +245,10 @@ Use the keybinding you added in Step 4 to open up the terminal and install essen
 
 ##### Sources: 
 https://dev.to/l04db4l4nc3r/bspwm-a-bare-bones-window-manager-44di
+
 https://www.maths.cam.ac.uk/computing/linux/X/xsession
+
 https://github.com/baskerville/bspwm/wiki
+
 https://wiki.archlinux.org/index.php/bspwm
 
