@@ -26,7 +26,7 @@ See carefully that the dependencies like `bspwm lemonbar libxcb-ewmh2 sxhkd xdo`
 
 ##### Step 2 : Configuring bspwm and sxhkd
 
-Now the bspwm file was downloaded into your system and in almost all cases, the files are found in `~/usr/share/doc/bspwm`
+Now the bspwm file was downloaded into your system and in almost all cases, the files are found in `/usr/share/doc/bspwm`
 
 In this folder , there are example config files that you can use. Or if you want , you can make your config files from scratch.
 I will be using the examples configs to wrap it up faster
