@@ -56,6 +56,11 @@ See this:
 
 ![alt text](https://github.com/Nova-Striker/mydotfiles/blob/main/pictures/pic-2.png?raw=true)
 
+If its not executable , then make it executable by 
+
+`chmod +x bspwmrc`
+
+
 ------
 
 
