@@ -4,7 +4,7 @@
 
 ##### Note : Donot blindly copy the commands otherwise very bad things will happen.
 
-##### Step 1 : Installing [bspwm](https://github.com/baskerville/bspwm) either by installing from the debian repository or by [building it from source](https://github.com/baskerville/bspwm/wiki#from-source) .I will be using the debian repository for installation
+##### Step 1 : Install [bspwm](https://github.com/baskerville/bspwm) either by installing from the debian repository or by [building it from source](https://github.com/baskerville/bspwm/wiki#from-source) .I will be using the debian repository for installation
 Run the following commands. Use `sudo` if you are not root
 
 `
