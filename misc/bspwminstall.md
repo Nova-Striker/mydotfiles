@@ -32,7 +32,7 @@ In this folder , there are example config files that you can use. Or if you want
 I will be using the examples configs to wrap it up faster
 
 
-From `~/usr/share/doc/bspwm/examples` we will copy the `bspwmrc` and `sxkdrc` to `~/.config` directory
+From `/usr/share/doc/bspwm/examples` we will copy the `bspwmrc` and `sxkdrc` to `~/.config` directory
 
 First make two directories (`bspwm` and `sxhkd`) in your `.config` folder.
 
@@ -40,7 +40,7 @@ Use :
 
 `mkdir ~/.config/bspwm && mkdir ~/.config/sxhkd`
 
-Next copy the `bspwmrc` and `sxhkdrc` in `~/usr/share/doc/bspwm/examples` to your `.config` directory using the following commands 
+Next copy the `bspwmrc` and `sxhkdrc` in `/usr/share/doc/bspwm/examples` to your `.config` directory using the following commands 
 
 `cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm`
 
