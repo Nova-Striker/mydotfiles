@@ -4,7 +4,7 @@
 
 ##### Note : Donot blindly copy the commands otherwise very bad things will happen.
 
-##### Step 1 : Installing [bspwm](https://github.com/baskerville/bspwm) either by installing from the debian repository or by [building it from source](https://github.com/baskerville/bspwm/wiki#from-source) .I will be using the debian repository for installation
+##### Step 1 : Install [bspwm](https://github.com/baskerville/bspwm) either by installing from the debian repository or by [building it from source](https://github.com/baskerville/bspwm/wiki#from-source) .I will be using the debian repository for installation
 Run the following commands. Use `sudo` if you are not root
 
 `
@@ -26,13 +26,13 @@ See carefully that the dependencies like `bspwm lemonbar libxcb-ewmh2 sxhkd xdo`
 
 ##### Step 2 : Configuring bspwm and sxhkd
 
-Now the bspwm file was downloaded into your system and in almost all cases, the files are found in `~/usr/share/doc/bspwm`
+Now the bspwm file was downloaded into your system and in almost all cases, the files are found in `/usr/share/doc/bspwm`
 
 In this folder , there are example config files that you can use. Or if you want , you can make your config files from scratch.
 I will be using the examples configs to wrap it up faster
 
 
-From `~/usr/share/doc/bspwm/examples` we will copy the `bspwmrc` and `sxkdrc` to `~/.config` directory
+From `/usr/share/doc/bspwm/examples` we will copy the `bspwmrc` and `sxhkdrc` to `~/.config` directory
 
 First make two directories (`bspwm` and `sxhkd`) in your `.config` folder.
 
@@ -40,7 +40,7 @@ Use :
 
 `mkdir ~/.config/bspwm && mkdir ~/.config/sxhkd`
 
-Next copy the `bspwmrc` and `sxhkdrc` in `~/usr/share/doc/bspwm/examples` to your `.config` directory using the following commands 
+Next copy the `bspwmrc` and `sxhkdrc` in `/usr/share/doc/bspwm/examples` to your `.config` directory using the following commands 
 
 `cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm`
 
@@ -50,10 +50,16 @@ Next copy the `bspwmrc` and `sxhkdrc` in `~/usr/share/doc/bspwm/examples` to you
 
 ##### Step 3 : Making executables and firing up bspwm
 
-Normally , the `bspwmrc` file that you copied just now should be an executable. You can check if its an executable or not from the this SO post or if you have a file manager like `vifm` or `ranger` then , placing the cursor on `bspwmrc` file should highlight it in `green` colour (which means that its an executable and you can proceed to the next step) 
+Normally , the `bspwmrc` file that you copied just now should be an executable. You can check if its an executable or not from the [this SO post](https://stackoverflow.com/questions/10319652/check-if-a-file-is-executable) or if you have a file manager like `vifm` or `ranger` then , placing the cursor on `bspwmrc` file should highlight it in `green` colour (which means that its an executable and you can proceed to the next step) 
 
 See this:
+
 ![alt text](https://github.com/Nova-Striker/mydotfiles/blob/main/pictures/pic-2.png?raw=true)
+
+If its not executable , then make it executable by 
+
+`chmod +x bspwmrc`
+
 
 ------
 
@@ -244,7 +250,10 @@ Use the keybinding you added in Step 4 to open up the terminal and install essen
 
 ##### Sources: 
 https://dev.to/l04db4l4nc3r/bspwm-a-bare-bones-window-manager-44di
+
 https://www.maths.cam.ac.uk/computing/linux/X/xsession
+
 https://github.com/baskerville/bspwm/wiki
+
 https://wiki.archlinux.org/index.php/bspwm
 
