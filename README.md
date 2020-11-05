@@ -31,3 +31,13 @@ Big changes made on 24 October 2020
    
    ![Alt Text](https://media.giphy.com/media/JbpMvUgzz7bVOUs3W1/giphy.gif)
    
+======= 
+#### Changes on 3rd and 4th November 
+
+  1. Moved from default `mutter` wm of gnome to [`bspwm`](https://github.com/baskerville/bspwm) 
+  2. See installation for Ubuntu 20.04 [here](https://github.com/Nova-Striker/mydotfiles/blob/main/misc/bspwminstall.md)
+  3. Some extra stuff : [Picom compositor](https://github.com/yshui/picom) , [polybar](https://github.com/polybar/polybar) , [Nitrogen](https://github.com/l3ib/nitrogen) and a few others 
+  4. [powerlevel10k](https://github.com/romkatv/powerlevel10k) with right side prompt really mess up the terminal when resizing. See [this](https://github.com/romkatv/powerlevel10k/issues/175) . Reconfigured `.p10k.zsh` on this [commit](https://github.com/Nova-Striker/mydotfiles/commit/2a0076f82d7f3e8cab4bb000fe979dcf55231618#diff-7ef794e6ff0d5efd2e47e1a33e94acd7d14510a028661533af4650647d3ea879)
+
+  
+
