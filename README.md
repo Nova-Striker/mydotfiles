@@ -21,6 +21,7 @@ Big changes made on 24 October 2020
   5. Step 4 broke mysql server and now it cannot be used from shell. 
   It can now be used with only Beekeeper. Looking for a solution to fix this for the time being. 
   
+  6. MySql is now fixed. Had to completely remove Mysql(not just removing it using apt but "purging" the entire mysql server.)
  
 
 =======
