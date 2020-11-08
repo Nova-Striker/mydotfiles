@@ -3,7 +3,6 @@
 
 Misc files
 =========
-A backup for my working environment
 
 Big changes made on 24 October 2020 
 --------
