@@ -1,5 +1,5 @@
 
-##### Note : My dotfiles have been migrated [here](https://github.com/Nova-Striker/dotfiles) which is bascally my home directory , so it would not require me to copy and paste the files again and again to this repository everytime I change something.
+##### Note : My dotfiles have been migrated [here](https://github.com/Nova-Striker/dotfiles) which is basically my home directory , so it would not require me to copy and paste the files again and again to this repository everytime I change something.
 
 Misc files
 =========
